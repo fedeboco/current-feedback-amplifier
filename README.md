@@ -1,5 +1,19 @@
 # Current Feedback Topology 40W Audio Amplifier
 
+The current feedback topology gives this amplifier some independency between gain and bandwidth, resulting in an amplifier with relatively high power and high bandwidth (around 450 kHz at full power). Having a higher bandwidth than the traditional audio band (up to 20 kHz) produces a lower phase distortion in the audio band, consequently producing better sound.
+
+##### Specifications achieved:
+| Specification   | Measured  |
+| -------------   | -----:    |
+| Power (RMS)     | 40 W      |
+| Power Bandwidth | 450 kHz   |
+| Bandwidth       |    1MHz   |
+| SNR             | 84 dB     |
+| THD (40W)       | 0.2%      |
+| THD (1W)        | 0.012%    |
+| IMD (1W)        | -78 dB    |
+| Gain            | 24.5 dB   |
+
 ## Design
 
 Heatsink has been designed using FreeCad and circuit using KiCad.
